@@ -29,7 +29,7 @@ This repository implements tasks for the SO‑ARM100 and SO‑ARM101 robots usin
 
 Install uv.
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh \| sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 Clone the repository.
