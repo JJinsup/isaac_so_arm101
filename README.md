@@ -13,6 +13,18 @@ This repository implements tasks for the SO‑ARM100 and SO‑ARM101 robots usin
 - **Apr. 2025 -** NVIDIA Omniverse Livestream: Training a Robot from Scratch in Simulation (URDF → OpenUSD). [Watch on YouTube](https://www.youtube.com/watch?v=_HMk7I-vSBQ)
 - **Apr. 2025 -** LycheeAI Tutorial: How to Create External Projects in Isaac Lab. [Watch on YouTube](https://www.youtube.com/watch?v=i51krqsk8ps)
 
+## Environment (Tested Setup)
+
+| 구성 요소 | 세부 사양 |
+|----------|-----------|
+| CPU / RAM | Intel i9-10900X / 188GB |
+| OS | Ubuntu 22.04.5 (kernel 6.8.0-87-generic) |
+| GPU | RTX 3090 × 2 |
+| NVIDIA-SMI | 575.57.08 |
+| CUDA | 12.9 |
+| Isaac Lab | `main` branch (Commit Hash: `2ed331acfc`) |
+| Python | 3.11 |
+
 ## Installation
 
 Install uv.
@@ -75,26 +87,10 @@ This project builds upon the excellent work of several open-source projects and 
 - **[RSL-RL](https://github.com/leggedrobotics/rsl_rl)** — Reinforcement learning library used for training policies
 - **[SO-ARM100/SO-ARM101 Robot](https://github.com/TheRobotStudio/SO-ARM100)** — The hardware platform that inspired this simulation environment
 - **[WowRobo](https://shop.wowrobo.com/?sca_ref=8879221)** — Project sponsor providing assembled SO-ARM kits and parts (use code `LYCHEEAI5` for 5% off)
-
+- **[SO-ARM100/SO-ARM101 Project](https://github.com/MuammerBay/isaac_so_arm101)** - 원본 프로젝트
 Special thanks to the Isaac Lab development team at NVIDIA, Hugging Face and The Robot Studio for the SO‑ARM robot series, and the LycheeAI Hub community for tutorials and support.
 
-## Citation
-
-If you use this work, please cite it as:
-
-```bibtex
-@software{Louis_Isaac_Lab_2025,
-   author = {Louis, Le Lay and Muammer, Bay},
-   doi = {https://doi.org/10.5281/zenodo.16794229},
-   license = {BSD-3-Clause},
-   month = apr,
-   title = {Isaac Lab – SO‑ARM100 / SO‑ARM101 Project},
-   url = {https://github.com/MuammerBay/isaac_so_arm101},
-   version = {1.1.0},
-   year = {2025}
-}
-```
-
-## License
-
-See [LICENSE](LICENSE) for details.
+❌ 주의 사항
+1. LICENSE 파일(BSD 3-Clause 전문) 그대로 유지
+2. 저작권 문구(Copyright)
+3. 저작권자 이름을 가져다가 홍보/광고에 사용하는 것 금지
